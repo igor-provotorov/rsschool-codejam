@@ -5,7 +5,6 @@ const sumOfOther = (array) => {
     return array.reverse();
   }
 
-
   let sum = 0;
   for (let i = 0, len = array.length; i < len; i++) {
     sum += array[i];
