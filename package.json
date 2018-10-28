@@ -6,7 +6,7 @@
   "scripts": {
     "test1": "mocha test/test1.js",
     "test2": "mocha test/test2.js",
-	"test3": "mocha test/test3.js"
+    "test3": "mocha test/test3.js"
   },
   "repository": {
     "type": "git",
