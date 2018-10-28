@@ -99,3 +99,8 @@ console.log(array); // [[100], [90, 120], [70,99,110,130]]
 
 ## Кто выполянет проверку задания?
 Ваш ментор.
+
+## Для проверки заданий тестами:
+- npm run test1 for function #1 'sumOfOther'
+- npm run test2 for function #2  'make'
+- npm run test3 for function #3  'recursion'
