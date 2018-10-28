@@ -1,0 +1,22 @@
+{
+  "name": "rsschool-codejam",
+  "version": "1.0.0",
+  "description": "RSSchool CodeJam#3",
+  "main": "index.js",
+  "scripts": {
+    "test1": "mocha test/test1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igor-provotorov/rsschool-codejam.git"
+  },
+  "author": "Igor Provotorov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igor-provotorov/rsschool-codejam/issues"
+  },
+  "homepage": "https://github.com/igor-provotorov/rsschool-codejam#readme",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
+}

@@ -16,3 +16,5 @@ const sumOfOther = (array) => {
 
   return array;
 }
+
+module.exports = sumOfOther;
