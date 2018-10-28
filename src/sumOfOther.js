@@ -1,23 +1,12 @@
 const sumOfOther = (array) => {
   if (array.length < 2) {
     return array;
-  } if (array.length === 2) {
+  }
+  if (array.length === 2) {
     return array.reverse();
   }
 
-  let sum = 0;
-
-  for (let i = 0, len = array.length; i < len; i += 1) {
-    sum += array[i];
-  }
-
-  const result = array.map((item) => {
-    let x = item;
-    x = sum - item;
-    return x;
-  });
-
-  return result;
+  return array.map(item => array.reduce((acc, current) => acc + current) - item);
 };
 
 module.exports = sumOfOther;
