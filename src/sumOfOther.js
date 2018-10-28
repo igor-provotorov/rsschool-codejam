@@ -6,15 +6,18 @@ const sumOfOther = (array) => {
   }
 
   let sum = 0;
+
   for (let i = 0, len = array.length; i < len; i += 1) {
     sum += array[i];
   }
 
-  for (let i = 0, len = array.length; i < len; i += 1) {
-    array[i] = sum - array[i];
-  }
+  const result = array.map((item) => {
+    let x = item;
+    x = sum - item;
+    return x;
+  });
 
-  return array;
+  return result;
 };
 
 module.exports = sumOfOther;

@@ -2,7 +2,7 @@ const make = (...args) => {
   const arr = [];
   arr.push(...args);
 
-  const closureFunction = (...args2) => {    
+  const closureFunction = (...args2) => {
     if (typeof args2[0] === 'function') {
       const foo = args2[0];
       return arr.reduce((acc, item) => foo(acc, item));
@@ -12,6 +12,6 @@ const make = (...args) => {
   };
 
   return closureFunction;
-}
+};
 
 module.exports = make;
