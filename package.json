@@ -4,7 +4,8 @@
   "description": "RSSchool CodeJam#3",
   "main": "index.js",
   "scripts": {
-    "test1": "mocha test/test1.js"
+    "test1": "mocha test/test1.js",
+    "test2": "mocha test/test2.js"
   },
   "repository": {
     "type": "git",
