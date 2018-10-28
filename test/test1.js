@@ -22,4 +22,9 @@ describe('sumOfOthers', () => {
     const result = sumOfOther([2, 3, 4, 1]);
     assert.deepEqual(result, [8, 7, 6, 9]);
   });
+
+  it('should return [1267, 1255, 1284, 589, 1278, 767, 1288]', () => {
+    const result = sumOfOther([21, 33, 4, 699, 10, 521, 0]);
+    assert.deepEqual(result, [1267, 1255, 1284, 589, 1278, 767, 1288]);
+  });
 });
